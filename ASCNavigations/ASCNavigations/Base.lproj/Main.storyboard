@@ -39,7 +39,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="thirdViewController" id="Z0N-3z-PPE">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="Iwt-5L-Ufg">
+                        <barButtonItem key="leftBarButtonItem" id="Iwt-5L-Ufg">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vTK-w1-uf0">
                                 <rect key="frame" x="-23" y="-15" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -80,7 +80,7 @@
         <!--firstViewController-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ASCFirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -120,16 +120,19 @@
                                             <segue destination="BRD-Ty-Rgg" kind="modal" id="b8E-nw-wmX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejz-5b-23h" userLabel="navigateToOtherStoryboardButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejz-5b-23h" userLabel="navigateToSecondStoryboardButton">
                                         <rect key="frame" x="0.0" y="115" width="288" height="40"/>
                                         <color key="backgroundColor" red="1" green="0.49803921569999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="f1L-Sg-e05"/>
                                         </constraints>
-                                        <state key="normal" title="navigate to other Storyboard">
+                                        <state key="normal" title="navigate to second Storyboard">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="userDidTapOnNavigateToSecondStoryboardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5sj-Hx-VCF"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

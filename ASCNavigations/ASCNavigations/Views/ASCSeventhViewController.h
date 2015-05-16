@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ASCSeventhViewController.h
 //  ASCNavigations
 //
 //  Created by Abel Sánchez Custodio on 16/5/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ASCSeventhViewController : UIViewController
 
 @end
-

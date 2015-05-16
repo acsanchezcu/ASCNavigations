@@ -1,5 +1,5 @@
 //
-//  ASCThirdViewController.h
+//  ASCFirstViewController.h
 //  ASCNavigations
 //
 //  Created by Abel Sánchez Custodio on 16/5/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ASCThirdViewController : UIViewController
+@interface ASCFirstViewController : UIViewController
 
 @end
