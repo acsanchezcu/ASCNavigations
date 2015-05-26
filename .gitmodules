@@ -1,0 +1,3 @@
+[submodule "ASCNavigations/ASCNavigations/Libs/asclibs"]
+	path = ASCNavigations/ASCNavigations/Libs/asclibs
+	url = https://acsanchezcu@bitbucket.org/acsanchezcu/asclibs.git

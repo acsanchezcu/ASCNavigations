@@ -19,6 +19,8 @@
 		342E4F011B07DAF0006A57D1 /* ASCSixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E4F001B07DAF0006A57D1 /* ASCSixthViewController.m */; };
 		342E4F041B07DB0D006A57D1 /* ASCSeventhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E4F031B07DB0D006A57D1 /* ASCSeventhViewController.m */; };
 		342E4F071B07DB8A006A57D1 /* ASCFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342E4F061B07DB8A006A57D1 /* ASCFifthViewController.m */; };
+		34FCBF691B14FEB300AD034B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 34FCBF651B14FEB300AD034B /* .gitignore */; };
+		34FCBF6A1B14FEB300AD034B /* UIColor+ASCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FCBF681B14FEB300AD034B /* UIColor+ASCExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		342E4F031B07DB0D006A57D1 /* ASCSeventhViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCSeventhViewController.m; sourceTree = "<group>"; };
 		342E4F051B07DB8A006A57D1 /* ASCFifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCFifthViewController.h; sourceTree = "<group>"; };
 		342E4F061B07DB8A006A57D1 /* ASCFifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCFifthViewController.m; sourceTree = "<group>"; };
+		34FCBF651B14FEB300AD034B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		34FCBF671B14FEB300AD034B /* UIColor+ASCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ASCExtension.h"; sourceTree = "<group>"; };
+		34FCBF681B14FEB300AD034B /* UIColor+ASCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ASCExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,7 @@
 		342E4ECD1B07C587006A57D1 /* ASCNavigations */ = {
 			isa = PBXGroup;
 			children = (
+				34FCBF631B14FEB300AD034B /* Libs */,
 				342E4EF41B07D5B7006A57D1 /* Views */,
 				342E4ED21B07C587006A57D1 /* AppDelegate.h */,
 				342E4ED31B07C587006A57D1 /* AppDelegate.m */,
@@ -148,6 +154,32 @@
 				342E4F061B07DB8A006A57D1 /* ASCFifthViewController.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		34FCBF631B14FEB300AD034B /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				34FCBF641B14FEB300AD034B /* asclibs */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		34FCBF641B14FEB300AD034B /* asclibs */ = {
+			isa = PBXGroup;
+			children = (
+				34FCBF651B14FEB300AD034B /* .gitignore */,
+				34FCBF661B14FEB300AD034B /* Internal */,
+			);
+			path = asclibs;
+			sourceTree = "<group>";
+		};
+		34FCBF661B14FEB300AD034B /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				34FCBF671B14FEB300AD034B /* UIColor+ASCExtension.h */,
+				34FCBF681B14FEB300AD034B /* UIColor+ASCExtension.m */,
+			);
+			path = Internal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FCBF691B14FEB300AD034B /* .gitignore in Resources */,
 				342E4EFB1B07D844006A57D1 /* Second.storyboard in Resources */,
 				342E4EDA1B07C587006A57D1 /* Main.storyboard in Resources */,
 				342E4EDF1B07C587006A57D1 /* LaunchScreen.xib in Resources */,
@@ -256,6 +289,7 @@
 				342E4F011B07DAF0006A57D1 /* ASCSixthViewController.m in Sources */,
 				342E4EF71B07D5C9006A57D1 /* ASCThirdViewController.m in Sources */,
 				342E4EFE1B07D8E2006A57D1 /* ASCFirstViewController.m in Sources */,
+				34FCBF6A1B14FEB300AD034B /* UIColor+ASCExtension.m in Sources */,
 				342E4ED41B07C587006A57D1 /* AppDelegate.m in Sources */,
 				342E4ED11B07C587006A57D1 /* main.m in Sources */,
 			);
@@ -452,6 +486,7 @@
 				342E4EF01B07C587006A57D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		342E4EF11B07C587006A57D1 /* Build configuration list for PBXNativeTarget "ASCNavigationsTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +495,7 @@
 				342E4EF31B07C587006A57D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
